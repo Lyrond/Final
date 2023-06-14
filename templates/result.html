@@ -1,0 +1,146 @@
+<!DOCTYPE>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="source/style.css">
+    <link rel="stylesheet" type="text/css" href="source/font-awesome-4.5.0/css/font-awesome.css">
+    <link rel="icon" type="image/x-icon" href="source/img/fovi.ico">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+    <title>Dream Garage</title>
+    
+</head>
+    
+<body>
+    <!--top icons i ewe tam-->
+<div class="allcontain">
+	<div class="header2">
+			<ul class="socialicon">
+				<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+				<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+				<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+				<li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+			</ul>
+			<ul class="givusacall">
+				<li>Give us a call</li>
+			</ul>
+			<ul class="logreg">
+				<li><a href="#">Login </a> </li>
+				<li><a href="#"><span class="register">Register</span></a></li>
+			</ul>
+    </div> 
+</div>
+
+<!---header + slider vrode-->
+<header class="custom-header">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <img src="source/img/icon.png" class="icon">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#carsq">Models</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#newsq">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>
+    
+<!--karuselka-->
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indikatory -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Slidy -->
+  <div class="carousel-inner">
+    <div class="carousel-item active d-flex justify-content-center">
+      <img src="source/img/1.jpg" alt="Image 1" class="mx-auto">
+      <div class="carousel-caption">
+        <p class="pp1">Order Now</p>
+      </div>
+    </div>
+    <div class="carousel-item d-flex justify-content-center">
+      <img src="source/img/2.jpg" alt="Image 2" class="mx-auto">
+      <div class="carousel-caption">
+        <p class="pp1">Order Now</p>
+      </div>
+    </div>
+    <div class="carousel-item d-flex justify-content-center">
+      <img src="source/img/3.jpg" alt="Image 3" class="mx-auto">
+      <div class="carousel-caption">
+        <p class="pp1">Order Now</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Controls -->
+  <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+<!--searcher--> 
+    <div class="search-container">
+  <div class="search-heading">SEARCH TEXT</div>
+  <div class="search-input">
+    <input type="text" placeholder="Enter Keyword">
+    <div class="search-icon"><i class="fa fa-search"></i></div>
+  </div>
+</div>
+<!--latest cars-->
+    <div class="latestcars"  id="carsq">
+	<h1 class="text-center">&bullet; SEARCH RESULT &bullet;</h1>
+</div>
+    
+    <!--newsletter-->
+<div class="newslettercontent" id="newsq">
+		<div class="leftside">
+			<img src="source/img/border.png" alt="border">
+			<h1>NEWSLETTER AND CONTACT INFO</h1>
+			<p>Share your email to the mailing list to <br>
+				receive updates on new arrivals, special offers <br>
+				or leave your contact information to order.</p>
+		</div>
+		<div class="rightside">
+			<img class="newsimage" src="source/img/newsletter.jpg" alt="newsletter">
+			<input type="text" class="form-control" id="subemail" placeholder="EMAIL">
+			<button>SUBSCRIBE</button>
+		</div>
+	</div>
+
+<!--bottom-->
+	<div class="bottommenu">
+		<ul class="nav nav-tabs bottomlinks">
+		</ul>
+		 <img src="source/img/line.png" alt="line"> <br>
+		 <div class="bottomsocial">
+		 	<a href="#"><i class="fa fa-facebook"></i></a>
+			<a href="#"><i class="fa fa-twitter"></i></a>
+			<a href="#"><i class="fa fa-google-plus"></i></a>
+			<a href="#"><i class="fa fa-pinterest"></i></a>
+		</div>
+	</div>
+</body>
+</html>

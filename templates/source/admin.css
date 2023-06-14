@@ -1,0 +1,56 @@
+/*header*/
+
+
+body {
+  font-family: Arial, sans-serif;
+    background-image: url(img/bkg.jpg);
+    background-size: cover;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+input[type="text"], textarea, select {
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 2px 2px 5px #ccc;
+  margin-bottom: 20px;
+}
+
+input[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #007bff;
+  color: #fff;
+}

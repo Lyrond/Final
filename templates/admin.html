@@ -1,0 +1,87 @@
+<head>
+    <title>Admin Page</title>
+	<link rel="stylesheet" type="text/css" href="source/font-awesome-4.5.0/css/font-awesome.css">
+    <link rel="icon" type="image/x-icon" href="source/img/fovi.ico">
+    <link rel="stylesheet" type="text/css" href="source/admin.css">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<div class="allcontain">
+	<div class="header">
+			<ul class="socialicon">
+				<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+				<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+				<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+				<li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+			</ul>
+			<ul class="givusacall">
+				<li>Give us a call</li>
+			</ul>
+			<ul class="logreg">
+				<li><a href="login.html">Login </a> </li>
+				<li><a href="login.html"><span class="register">Register</span></a></li>
+			</ul>
+    </div>
+</div>
+  <body>
+    <h1>Admin Page</h1>
+    <h2>Write and Send Articles</h2>
+    <form>
+      <label for="title">Title:</label>
+      <input type="text" id="title" name="title" required>
+
+      <label for="content">Content:</label>
+      <textarea id="content" name="content" required></textarea>
+
+      <label for="recipients">Recipients:</label>
+      <select id="recipients" name="recipients" multiple required>
+        <option value="user1">User 1</option>
+        <option value="user2">User 2</option>
+        <option value="user3">User 3</option>
+        <option value="user4">User 4</option>
+        <option value="user4">All Users </option>  
+      </select>
+
+      <input type="submit" value="Send">
+    </form>
+
+    <h2>Table of Orders of Cars</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Car</th>
+          <th>Name</th>
+          <th>Price</th>
+        <th>Costumer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>{{ result.car_mark }}</td>
+          <td>{{ result.car_model }}</td>
+          <td>{{ result.cost }}</td>
+            <td>{{result.username}}</td>
+        </tr>
+        <tr>
+          <td>{{ result.car_mark }}</td>
+          <td>{{ result.car_model }}</td>
+          <td>{{ result.cost }}</td>
+            <td>{{result.username}}</td>
+        </tr>
+        <tr>
+          <td>{{ result.car_mark }}</td>
+          <td>{{ result.car_model }}</td>
+          <td>{{ result.cost }}</td>
+            <td>{{result.username}}</td>
+        </tr>
+          <tr>
+          <td>{{ result.car_mark }}</td>
+          <td>{{ result.car_model }}</td>
+          <td>{{ result.cost }}</td>
+            <td>{{result.username}}</td>
+        </tr>
+      </tbody>
+    </table>
+
+</body>
